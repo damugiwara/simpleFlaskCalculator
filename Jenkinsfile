@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/damugiwara/simpleFlaskCalculator', branch: 'main'
+                git url: 'https://github.com/damugiwara/simpleFlaskCalculator.git', branch: 'master'
             }
         }
 
